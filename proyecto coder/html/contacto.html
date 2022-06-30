@@ -39,37 +39,68 @@
         </div>
     </nav>
     <main class="main__titulos">
-        <div class="main__titulos">
-            <h1>Formulario de contacto</h1>
-            <form action="#" target="" method="get" name="formDatosPersonales">
+        <h2 class="margen">Contactanos</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                    </div>
+                                </div>
 
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" />
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
 
-                <label for="apellidos">Apellidos</label>
-                <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido" />
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="telefono" class="form-control">
+                                    </div>
+                                </div>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="email" required />
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Escriba su consulta" rows="7"></textarea>
+                                    </div>
+                                </div>
 
-                <label for="asunto">Asunto</label>
-                <input type="text" name="asunto" id="asunto" placeholder="titular de la consulta" />
-
-                <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
-
-                <input type="submit" name="enviar" value="enviar datos" />
-            </form>
-            <h2>Conozca nuestras redes sociales</h2>
-            <li>
-                <a href="https://www.facebook.com">facebook</a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com">instagram</a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com">twitter</a>
-            </li>
+                                <div class="form-group">
+                                    <div class="col-md-12 text-left">
+                                        <button type="submit" class="btn bg-dark btn-lg color">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="margen">Conozca nuestras redes sociales</h2>
+        <li>
+            <a href="https://www.facebook.com">facebook</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com">instagram</a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com">twitter</a>
+        </li>
         </div>
 
     </main>
